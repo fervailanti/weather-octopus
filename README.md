@@ -23,6 +23,10 @@ See it in action **[here](https://weather-octopus.web.app/)**. 🔥
 weather-octopus
 │
 │    -> public (index.html, manifest.json, etc)
+│
+│    .env  <-- (To hide the secrets as API KEYS, or relateds. It's ignored by git,
+│          so if you need a secret you'll probably have to contact the project owner)
+│
 │    .gitignore
 │    .firebase
 │    .firebaserc
