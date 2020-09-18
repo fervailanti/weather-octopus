@@ -1,5 +1,6 @@
-import moment from 'moment'
 import { resolveCountry } from './resolveCountry'
+import { resolveDate } from './resolveDate'
+import { resolveTimezone } from './resolveTimezone'
 import { resolveWeatherIcon } from './resolveWeatherIcon'
 
 export const createFromApi = {
@@ -7,7 +8,7 @@ export const createFromApi = {
     id: data.id,
     name: data.name,
     country: resolveCountry(data.sys?.country),
-    time: moment().utcOffset(data.timezone / 60).format('h:mm A'),
+    time: resolveTimezone(data.timezone),
     weather: {
       description: data.weather[0]?.description,
       icon: resolveWeatherIcon(data.weather[0]?.icon),
@@ -20,7 +21,7 @@ export const createFromApi = {
   }),
   dailyForecast: (data: any) => {
     return data.daily.slice(1, 6).map((day: any) => ({
-      date: moment.unix(day.dt).format('dddd Do'),
+      date: resolveDate(day.dt),
       weather: {
         icon: resolveWeatherIcon(day.weather[0]?.icon),
         temp: {

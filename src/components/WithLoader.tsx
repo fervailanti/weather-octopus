@@ -12,8 +12,8 @@ const WithLoader: FC<WithLoaderProps> = ({
   children
 }): ReactElement => {
   const visibility = {
-    content: isLoading ? 'invisible' : '',
-    loader: isLoading ? '' : 'invisible'
+    content: isLoading ? 'invisible' : 'visible',
+    loader: isLoading ? 'visible' : 'invisible'
   }
   return (
     <>

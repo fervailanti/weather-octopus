@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrentWeather Container Should render correctly and show cities correctly 1`] = `
+<div>
+  <div
+    class="flex flex-col items-center md:mt-4 xl:mt-8"
+  >
+    <p
+      class="text-white font-thin text-xl my-3"
+    >
+      Other cities you may also like:
+    </p>
+    <div
+      class="flex md:flex-row flex-wrap justify-center mt-0"
+    >
+      <div
+        class="bg-gray-400 rounded-lg shadow-xl max-w-xl md:w-48 my-2 md:mx-2 xl:mx-4 overflow-hidden lg:cursor-pointer transform lg:hover:scale-105 lg:hover:bg-gray-300 transition duration-150 ease-in-out active:opacity-50"
+      >
+        <img
+          alt="alt"
+          class="object-cover w-full h-24"
+          src="new_york.jpg"
+        />
+        <div
+          class="p-3"
+        >
+          <h2
+            class="text-gray-900"
+          >
+            <span
+              class="font-semibold text-xl"
+            >
+              New York
+            </span>
+            <span
+              class="text-sm"
+            >
+              , 
+              USA
+            </span>
+          </h2>
+        </div>
+      </div>
+      <div
+        class="bg-gray-400 rounded-lg shadow-xl max-w-xl md:w-48 my-2 md:mx-2 xl:mx-4 overflow-hidden lg:cursor-pointer transform lg:hover:scale-105 lg:hover:bg-gray-300 transition duration-150 ease-in-out active:opacity-50"
+      >
+        <img
+          alt="alt"
+          class="object-cover w-full h-24"
+          src="paris.jpg"
+        />
+        <div
+          class="p-3"
+        >
+          <h2
+            class="text-gray-900"
+          >
+            <span
+              class="font-semibold text-xl"
+            >
+              Paris
+            </span>
+            <span
+              class="text-sm"
+            >
+              , 
+              France
+            </span>
+          </h2>
+        </div>
+      </div>
+      <div
+        class="bg-gray-400 rounded-lg shadow-xl max-w-xl md:w-48 my-2 md:mx-2 xl:mx-4 overflow-hidden lg:cursor-pointer transform lg:hover:scale-105 lg:hover:bg-gray-300 transition duration-150 ease-in-out active:opacity-50"
+      >
+        <img
+          alt="alt"
+          class="object-cover w-full h-24"
+          src="rome.jpg"
+        />
+        <div
+          class="p-3"
+        >
+          <h2
+            class="text-gray-900"
+          >
+            <span
+              class="font-semibold text-xl"
+            >
+              Rome
+            </span>
+            <span
+              class="text-sm"
+            >
+              , 
+              Italy
+            </span>
+          </h2>
+        </div>
+      </div>
+      <div
+        class="bg-gray-400 rounded-lg shadow-xl max-w-xl md:w-48 my-2 md:mx-2 xl:mx-4 overflow-hidden lg:cursor-pointer transform lg:hover:scale-105 lg:hover:bg-gray-300 transition duration-150 ease-in-out active:opacity-50"
+      >
+        <img
+          alt="alt"
+          class="object-cover w-full h-24"
+          src="tokyo.jpg"
+        />
+        <div
+          class="p-3"
+        >
+          <h2
+            class="text-gray-900"
+          >
+            <span
+              class="font-semibold text-xl"
+            >
+              Tokyo
+            </span>
+            <span
+              class="text-sm"
+            >
+              , 
+              Japan
+            </span>
+          </h2>
+        </div>
+      </div>
+      <div
+        class="bg-gray-400 rounded-lg shadow-xl max-w-xl md:w-48 my-2 md:mx-2 xl:mx-4 overflow-hidden lg:cursor-pointer transform lg:hover:scale-105 lg:hover:bg-gray-300 transition duration-150 ease-in-out active:opacity-50"
+      >
+        <img
+          alt="alt"
+          class="object-cover w-full h-24"
+          src="berlin.jpg"
+        />
+        <div
+          class="p-3"
+        >
+          <h2
+            class="text-gray-900"
+          >
+            <span
+              class="font-semibold text-xl"
+            >
+              Berlin
+            </span>
+            <span
+              class="text-sm"
+            >
+              , 
+              Germany
+            </span>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

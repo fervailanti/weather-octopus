@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo Component Should render correctly and execute action passed by props 1`] = `
+<div>
+  <div
+    class="flex flex-col items-center mt-2 lg:my-4"
+  >
+    <img
+      alt="octopus"
+      class="h-16 lg:h-20 transition duration-200 ease-in-out lg:cursor-pointer transform lg:hover:scale-110 active:opacity-50"
+      data-testid="octopus-logo"
+      src="octopus.png"
+    />
+    <h1
+      class="text-4xl text-white font-hairline"
+    >
+      Weather
+      <span
+        class="font-semibold"
+      >
+        Octopus
+      </span>
+    </h1>
+  </div>
+</div>
+`;

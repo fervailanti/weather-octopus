@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithLoader High Order Component Should hide the content and show the spinner if it's loading 1`] = `
+<div>
+  <div
+    class="invisible "
+  >
+    <p>
+      Hi! I'm a content
+    </p>
+  </div>
+  <div
+    class="visible absolute right-1/2 top-1/2 -mr-10 -mt-10"
+  >
+    <div
+      class="loader"
+    >
+      <div />
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WithLoader High Order Component Should hide the spinner and show the content if it's not loading 1`] = `
+<div>
+  <div
+    class="visible "
+  >
+    <p>
+      Hi! I'm a content
+    </p>
+  </div>
+  <div
+    class="invisible absolute right-1/2 top-1/2 -mr-10 -mt-10"
+  >
+    <div
+      class="loader"
+    >
+      <div />
+      <div />
+    </div>
+  </div>
+</div>
+`;

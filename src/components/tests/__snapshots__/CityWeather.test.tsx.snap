@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CityWeather Component Should render correctly 1`] = `
+<div>
+  <div
+    class="flex justify-between w-full"
+  >
+    <div
+      class="h-full flex flex-col justify-between"
+    >
+      <div
+        class="flex flex-col"
+      >
+        <h2
+          class="text-white"
+        >
+          <span
+            class="font-semibold text-2xl"
+          >
+            New York
+          </span>
+          <span
+            class="text-lg"
+          >
+            , 
+            USA
+          </span>
+        </h2>
+        <p
+          class="text-white font-thin mt-2"
+        >
+          As of 
+          <span
+            class="font-normal"
+          >
+            3:25 PM
+          </span>
+        </p>
+      </div>
+      <div
+        class="flex flex-col"
+      >
+        <p
+          class="text-white text-6xl font-semibold"
+        >
+          14
+          º
+        </p>
+        <p
+          class="text-white font-thin"
+        >
+          clear sky
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex flex-col items-center self-end"
+    >
+      <img
+        alt="weather-icon"
+        class="h-20"
+        src="[object Object]"
+      />
+      <p
+        class="text-white mt-4 font-thin text-xl"
+      >
+        <span
+          class="font-semibold"
+        >
+          12
+          º
+        </span>
+         /
+         
+        <span
+          class="font-semibold"
+        >
+          15
+          º
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+`;

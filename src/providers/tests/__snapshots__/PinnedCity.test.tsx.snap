@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pinned City Provider (state) PinnedCityProvider Component should render correctly 1`] = `
+<div>
+  <p>
+    TEST
+  </p>
+</div>
+`;

@@ -19,7 +19,7 @@ export const PinnedCityContext = createContext<PinnedCityContextType>({
   setPinnedCity: () => {}
 })
 
-const PinnedCityReducer = (
+export const pinnedCityReducer = (
   prevState: PinnedCityType = initialPinnedCity,
   action: PinnedCityAction
 ) => {
@@ -42,7 +42,7 @@ const PinnedCityReducer = (
 }
 
 export const PinnedCityProvider: FC = ({ children }): ReactElement => {
-  const [pinnedCity, setPinnedCity] = useReducer(PinnedCityReducer, initialPinnedCity)
+  const [pinnedCity, setPinnedCity] = useReducer(pinnedCityReducer, initialPinnedCity)
   const value = { pinnedCity, setPinnedCity }
   return <PinnedCityContext.Provider value={value}>{children}</PinnedCityContext.Provider>
 }

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip Component Should render correctly and execute action passed by props 1`] = `
+<div>
+  <div
+    class="bg-gray-400 rounded-lg shadow-xl max-w-xl md:w-48 my-2 md:mx-2 xl:mx-4 overflow-hidden lg:cursor-pointer transform lg:hover:scale-105 lg:hover:bg-gray-300 transition duration-150 ease-in-out active:opacity-50"
+  >
+    <img
+      alt="alt"
+      class="object-cover w-full h-24"
+      src="new_york.jpg"
+    />
+    <div
+      class="p-3"
+    >
+      <h2
+        class="text-gray-900"
+      >
+        <span
+          class="font-semibold text-xl"
+        >
+          New York
+        </span>
+        <span
+          class="text-sm"
+        >
+          , 
+          USA
+        </span>
+      </h2>
+    </div>
+  </div>
+</div>
+`;

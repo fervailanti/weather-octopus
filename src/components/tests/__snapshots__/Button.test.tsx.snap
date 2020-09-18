@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component Should render correctly 1`] = `
+<div>
+  <button
+    class="bg-red-900 text-white rounded-lg shadow-lg py-2 px-4 m-4 transform lg:hover:scale-105 lg:hover:bg-orange-900 transition duration-150 ease-in-out focus:outline-none active:opacity-50"
+  >
+    Test Button
+  </button>
+</div>
+`;

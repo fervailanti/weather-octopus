@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Day Component Should render correctly 1`] = `
+<div>
+  <div
+    class="flex items-center mt-4 mr-4"
+  >
+    <img
+      alt="weather-icon"
+      class="h-6 mr-2"
+      src="[object Object]"
+    />
+    <div>
+      <p
+        class="text-white font-thin text-sm"
+      >
+        Monday 20th
+      </p>
+      <p
+        class="text-white font-thin text-sm"
+      >
+        <span
+          class="font-normal"
+        >
+          12
+        </span>
+        º /
+         
+        <span
+          class="font-normal"
+        >
+          15
+        </span>
+        º
+      </p>
+    </div>
+  </div>
+</div>
+`;

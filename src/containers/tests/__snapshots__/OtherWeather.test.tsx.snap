@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OtherWeather Container Should render correctly 1`] = `
+<div>
+  <div
+    class="flex flex-col items-center md:m-4 w-full"
+  >
+    <p
+      class="text-white font-thin text-2xl my-3"
+    >
+      Pinned city 📌
+    </p>
+    <div
+      class="group shadow-xl rounded-lg w-full h-full max-w-screen-md m-2 p-4 lg:p-6 transition duration-200 ease-in-out lg:cursor-pointer transform lg:hover:scale-105 active:opacity-75 bg-gradient-to-r from-red-900 to-teal-900"
+      id="pinned-city-forecast"
+    >
+      <div
+        class="invisible flex flex-col h-full"
+      >
+        <img
+          alt="reload-icon"
+          class="h-6 absolute right-0 mr-5 opacity-0 lg:group-hover:opacity-100 transition duration-200 ease-in-out"
+          src="[object Object]"
+        />
+        <div
+          class="flex justify-between w-full"
+        >
+          <div
+            class="h-full flex flex-col justify-between"
+          >
+            <div
+              class="flex flex-col"
+            >
+              <h2
+                class="text-white"
+              >
+                <span
+                  class="font-semibold text-2xl"
+                >
+                  Unknow
+                </span>
+                <span
+                  class="text-lg"
+                >
+                  , 
+                  Unknow
+                </span>
+              </h2>
+              <p
+                class="text-white font-thin mt-2"
+              >
+                As of 
+                <span
+                  class="font-normal"
+                >
+                  00:00
+                </span>
+              </p>
+            </div>
+            <div
+              class="flex flex-col"
+            >
+              <p
+                class="text-white text-6xl font-semibold"
+              >
+                0
+                º
+              </p>
+              <p
+                class="text-white font-thin"
+              >
+                Unknow weather description
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center self-end"
+          >
+            <img
+              alt="weather-icon"
+              class="h-20"
+              src="[object Object]"
+            />
+            <p
+              class="text-white mt-4 font-thin text-xl"
+            >
+              <span
+                class="font-semibold"
+              >
+                0
+                º
+              </span>
+               /
+               
+              <span
+                class="font-semibold"
+              >
+                0
+                º
+              </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex justify-around h-full items-center flex-wrap mt-6 border-t"
+        >
+          <div
+            class="flex items-center mt-4 mr-4"
+          >
+            <img
+              alt="weather-icon"
+              class="h-6 mr-2"
+              src="[object Object]"
+            />
+            <div>
+              <p
+                class="text-white font-thin text-sm"
+              >
+                Unknow dailys
+              </p>
+              <p
+                class="text-white font-thin text-sm"
+              >
+                <span
+                  class="font-normal"
+                >
+                  0
+                </span>
+                º /
+                 
+                <span
+                  class="font-normal"
+                >
+                  0
+                </span>
+                º
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center mt-4 mr-4"
+          >
+            <img
+              alt="weather-icon"
+              class="h-6 mr-2"
+              src="[object Object]"
+            />
+            <div>
+              <p
+                class="text-white font-thin text-sm"
+              >
+                Unknow dailys
+              </p>
+              <p
+                class="text-white font-thin text-sm"
+              >
+                <span
+                  class="font-normal"
+                >
+                  0
+                </span>
+                º /
+                 
+                <span
+                  class="font-normal"
+                >
+                  0
+                </span>
+                º
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center mt-4 mr-4"
+          >
+            <img
+              alt="weather-icon"
+              class="h-6 mr-2"
+              src="[object Object]"
+            />
+            <div>
+              <p
+                class="text-white font-thin text-sm"
+              >
+                Unknow dailys
+              </p>
+              <p
+                class="text-white font-thin text-sm"
+              >
+                <span
+                  class="font-normal"
+                >
+                  0
+                </span>
+                º /
+                 
+                <span
+                  class="font-normal"
+                >
+                  0
+                </span>
+                º
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center mt-4 mr-4"
+          >
+            <img
+              alt="weather-icon"
+              class="h-6 mr-2"
+              src="[object Object]"
+            />
+            <div>
+              <p
+                class="text-white font-thin text-sm"
+              >
+                Unknow dailys
+              </p>
+              <p
+                class="text-white font-thin text-sm"
+              >
+                <span
+                  class="font-normal"
+                >
+                  0
+                </span>
+                º /
+                 
+                <span
+                  class="font-normal"
+                >
+                  0
+                </span>
+                º
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center mt-4 mr-4"
+          >
+            <img
+              alt="weather-icon"
+              class="h-6 mr-2"
+              src="[object Object]"
+            />
+            <div>
+              <p
+                class="text-white font-thin text-sm"
+              >
+                Unknow dailys
+              </p>
+              <p
+                class="text-white font-thin text-sm"
+              >
+                <span
+                  class="font-normal"
+                >
+                  0
+                </span>
+                º /
+                 
+                <span
+                  class="font-normal"
+                >
+                  0
+                </span>
+                º
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="visible absolute right-1/2 top-1/2 -mr-10 -mt-10"
+      >
+        <div
+          class="loader"
+        >
+          <div />
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

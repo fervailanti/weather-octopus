@@ -12,6 +12,7 @@ const Logo: FC<LogoProps> = ({ action }): ReactElement => (
       src={images.common.octopus}
       onClick={action}
       alt="octopus"
+      data-testid="octopus-logo"
     />
     <h1 className="text-4xl text-white font-hairline">
       Weather<span className="font-semibold">Octopus</span>
