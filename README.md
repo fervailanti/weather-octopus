@@ -16,6 +16,29 @@ See it in action **[here](https://weather-octopus.web.app/)**. 🔥
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [Firebase](https://firebase.google.com/)
 
+## Environment Variables:
+
+To run the project locally you will need to set environment variables, which will be secrets ignored by git like API KEYS or related.
+
+For this, create a `.env` file in the root of the project with the following: 
+
+```
+// OpenWeather API KEY:
+REACT_APP_OPENWEATHER_API_KEY = YourApiKeyHere
+```
+
+Just replace `YourApiKeyHere` with __your real API KEY__ _(if you don't have any real API KEY, you will have to contact the project owner to get the secret)_.
+
+This file is already set to be ignored by git in `.gitignore`, and will be also the place to store and hide any new secret that should not be commited. Just remember to add any new secret here in the above `.env` file reference to keep the list of required enviroment variables up to date.
+
+## Deployment:
+
+The project is hosted in firebase, for deploy you will have to install [Firebase Cli](https://github.com/firebase/firebase-tools).
+
+With the [Firebase Cli](https://github.com/firebase/firebase-tools) installed, and the correct access to the project in the Firebase Console, you just will need to run `yarn build` to generate a production build folder, and after that, `firebase deploy` to deploy the build.
+
+The project will be deployed in [https://weather-octopus.web.app/](https://weather-octopus.web.app/) and [https://weather-octopus.firebaseapp.com/](https://weather-octopus.firebaseapp.com/).
+
 ## Project Structure:
 
 ```
@@ -24,8 +47,8 @@ weather-octopus
 │
 │    -> public (index.html, manifest.json, etc)
 │
-│    .env  <-- (To hide the secrets as API KEYS, or relateds. It's ignored by git,
-│          so if you need a secret you'll probably have to contact the project owner)
+│    .env  <-- (To hide secrets. It's required to run the project locally.
+│             Please read the "Environment Variables" section of the README)
 │
 │    .gitattributes
 │    .gitignore
@@ -70,11 +93,3 @@ weather-octopus
            │ tailwind.css (A place to put custom classes if it's necesary)
 
 ```
-
-## Deployment
-
-The project is hosted in firebase, for deploy you will have to install [Firebase Cli](https://github.com/firebase/firebase-tools).
-
-With the [Firebase Cli](https://github.com/firebase/firebase-tools) installed, and the correct access to the project in the Firebase Console, you just will need to run `yarn build` to generate a production build folder, and after that, `firebase deploy` to deploy the build.
-
-The project will be deployed in [https://weather-octopus.web.app/](https://weather-octopus.web.app/) and [https://weather-octopus.firebaseapp.com/](https://weather-octopus.firebaseapp.com/).
