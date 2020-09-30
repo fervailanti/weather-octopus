@@ -6,7 +6,7 @@ const CityWeather: FC<CityType> = ({ name, country, time, weather }): ReactEleme
   <div className="flex justify-between w-full">
     <div className="h-full flex flex-col justify-between">
       <div className="flex flex-col">
-        <Title main={{ text: name, size: '2xl' }} side={{ text: country, size: 'lg' }} />
+        <Title text={{ main: name, side: country }} size="medium" />
         <p className="text-white font-thin mt-2">
           As of <span className="font-normal">{time}</span>
         </p>

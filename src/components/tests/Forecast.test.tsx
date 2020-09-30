@@ -42,7 +42,7 @@ describe('Forecast Component', () => {
         dailyForecast={mockDailyForecast}
         action={dummyAction}
         isLoading={false}
-        gradient={{ from: 'red-900', to: 'teal-900' }}
+        gradient='red/teal'
         id="test-forecast-mock"
       />
     )

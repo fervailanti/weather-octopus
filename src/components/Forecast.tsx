@@ -6,10 +6,7 @@ import DailyWeather from './DailyWeather'
 import WithLoader from './WithLoader'
 
 interface ForecastProps {
-  gradient: {
-    from: string
-    to: string
-  }
+  gradient: 'orange/blue' | 'red/teal'
   title: string
   city: CityType
   dailyForecast: DailyForecastType
@@ -27,11 +24,14 @@ const Forecast: FC<ForecastProps> = ({
   isLoading,
   id
 }): ReactElement => {
-  const sizing = 'w-full h-full max-w-screen-md m-2 p-4 lg:p-6'
+  const gradients = {
+    'orange/blue': `bg-gradient-to-r from-orange-900 to-blue-900`,
+    'red/teal': `bg-gradient-to-r from-red-900 to-teal-900`
+  }
+  const sizing = 'group shadow-xl rounded-lg w-full h-full max-w-screen-md m-2 p-4 lg:p-6'
   const transition = 'transition duration-200 ease-in-out'
   const hover = 'lg:cursor-pointer transform lg:hover:scale-105'
   const active = 'active:opacity-75'
-  const background = `bg-gradient-to-r from-${gradient.from} to-${gradient.to}`
 
   const { name, country, time, weather } = city
 
@@ -39,7 +39,7 @@ const Forecast: FC<ForecastProps> = ({
     <div className="flex flex-col items-center md:m-4 w-full">
       <p className="text-white font-thin text-2xl my-3">{title}</p>
       <div
-        className={`group shadow-xl rounded-lg ${sizing} ${transition} ${hover} ${active} ${background}`}
+        className={`${sizing} ${transition} ${hover} ${active} ${gradients[gradient]}`}
         onClick={action}
         id={id}
       >

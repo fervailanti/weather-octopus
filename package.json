@@ -16,11 +16,12 @@
     "use-position": "0.0.7"
   },
   "scripts": {
-    "start": "npm run build:css && react-scripts start",
-    "build": "npm run build:css && react-scripts build",
+    "start": "yarn build:css && react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:css": "postcss src/styles/tailwind.css -o src/styles/main.css"
+    "build": "react-scripts build",
+    "build:css": "tailwindcss build src/styles/tailwind.css -o src/styles/main.css",
+    "deploy": "NODE_ENV=production yarn build:css && yarn build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"

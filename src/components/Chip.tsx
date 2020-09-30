@@ -20,11 +20,7 @@ const Chip: FC<ChipProps> = ({ title, subtitle, image, action }): ReactElement =
     >
       {image && <img className="object-cover w-full h-24" src={image} alt="alt" />}
       <div className="p-3">
-        <Title
-          main={{ text: title, size: 'xl' }}
-          side={{ text: subtitle, size: 'sm' }}
-          color="gray-900"
-        />
+        <Title text={{ main: title, side: subtitle }} size="small" color="dark" />
       </div>
     </div>
   )

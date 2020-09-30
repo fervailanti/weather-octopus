@@ -32,7 +32,7 @@ const OthersWeather: FC = (): ReactElement => {
       dailyForecast={dailyForecast}
       action={refreshWeather}
       isLoading={pinnedCity.isLoading}
-      gradient={{ from: 'red-900', to: 'teal-900' }}
+      gradient='red/teal'
       id="pinned-city-forecast"
     />
   )

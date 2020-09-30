@@ -33,7 +33,7 @@ const CurrentWeather: FC = (): ReactElement => {
       dailyForecast={dailyForecast}
       action={refreshWeather}
       isLoading={isLoading}
-      gradient={{ from: 'orange-900', to: 'blue-900' }}
+      gradient='orange/blue'
     />
   )
 }
