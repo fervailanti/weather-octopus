@@ -1,8 +1,10 @@
-# Weather Octopus 🐙
-
-Hi there! Just a weather forecast by an octopus.
-
-See it in action **[here](https://weather-octopus.web.app/)**. 🔥
+<p align="center">
+      <img src="https://i.postimg.cc/652yzZS1/weather-octopus.png" />
+</p>
+<p align="center">
+      Hi there! Just a weather forecast by an octopus 🐙<br/>
+      See it in action <a href="https://weather-octopus.web.app/" target="_blank">here</a> 🔥
+</p>
 
 ## Builded with:
 
