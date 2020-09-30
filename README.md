@@ -1,5 +1,5 @@
 <p align="center">
-      <img src="https://i.postimg.cc/652yzZS1/weather-octopus.png" />
+      <img src="https://i.postimg.cc/652yzZS1/weather-octopus.png" width="350" />
 </p>
 <p align="center">
       Hi there! Just a weather forecast by an octopus 🐙<br/>
